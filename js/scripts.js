@@ -5,7 +5,7 @@ $(document).ready(function(){
 });
 $(document).ready(function(){
   $("p").click(function(){
-    $(".walrus-showing").show();
-    $(".walrus-hidden").hide();
-  })
-})
+    $(".walrus-showing").toggle();
+    $(".walrus-hidden").toggle();
+  });
+});
